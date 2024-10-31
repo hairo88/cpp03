@@ -4,8 +4,8 @@ CXX=g++
 CFLAGS= -Wall -Wextra -Werror -std=c++98
 
 SRC= main.cpp \
-	ClapTrap.cpp \ 
-	ScavTrap
+	ClapTrap.cpp \
+	ScavTrap.cpp
 
 OBJ= $(SRC:.cpp=.o)
 

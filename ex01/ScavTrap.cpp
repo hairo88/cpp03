@@ -11,9 +11,6 @@ ScavTrap::~ScavTrap() {
     std::cout << "ScavTrap destructor called for " << name << std::endl;
 }
 
-void ScavTrap::attack(const std::string& target) {
-    if (hitPoints > 0 && energyPoints > 0) {
-        std::cout << "ScavTrap " << name << " attacks " << target << ", causing " << attackDamage << "" << std::endl;
-        energyPoints--;
-    }
+void ScavTrap::guardGate() {
+    std::cout << "ScarTra" << name << "is now in Gate keeper mode." << std::endl;
 }
