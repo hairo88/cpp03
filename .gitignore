@@ -2,3 +2,7 @@ ex00/*.o
 ex00/clapTrap
 ex01/*.o
 ex01/clapTrap
+ex02/*.o
+ex02/clapTrap
+ex03/*.o
+ex03/diamondTrap
