@@ -9,6 +9,7 @@ private:
     std::string name;
 
 public:
+	DiamondTrap();
     DiamondTrap(const std::string &name);
     ~DiamondTrap();
     void attack(const std::string &target);
